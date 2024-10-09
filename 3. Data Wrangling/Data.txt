@@ -1,0 +1,20 @@
+Data
+p2-2010-pawdacity-monthly-sales.csv - This file contains all of the monthly sales for all Pawdacity stores for 2010.
+
+p2-partially-parsed-wy-web-scrape.csv - This is a partially parsed data file that can be used for population numbers.
+
+p2-wy-453910-naics-data.csv - NAICS data on the sales of all competitor stores where total sales is equal to 12 months of sales
+
+p2-wy-demographic-data.csv - This file contains demographic data for each city and county in Wyoming.
+
+If you are not getting 11 Cities, add browse tools to check your cleaning process. There might be an issue in your join where you are not matching all the cities because the city names do not exactly match.
+
+If your numbers are not the same as the following:
+
+Census Population: 213,862
+Total Pawdacity Sales: 3,773,304
+Households with Under 18: 34,064
+Land Area: 33,071
+Population Density: 63
+Total Families: 62,653
+Add browse tools to check your cleaning process. There might be an area where you are dropping parts of a value. Look at the original values and what they become by the end of the cleaning. Be careful of commas!
